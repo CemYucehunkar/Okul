@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display </title>
+
+    <style>
+      
+        div{ 
+            width: 400px   ;           
+            height: 100px;
+            background-color: lightblue;
+            margin: 5px;
+            display:inline-block  
+        }
+        
+        a{
+            display: block;
+        }
+
+        
+    </style>
+    <!-- Divler zaten block yapılardır ve otomatik olarak alt alta gelirler. Ama 
+    yanyana yapmak istersek style içindeki div komutuna DİSPLAY komutu verip
+inline  seçeneğini seçersek yanyana gelmiş olacaklar. Ama inline seçeneği ile 
+yükseklik vs gibi düzenlemeler yapılamayacağı için İnline-block seçeğini seçip
+hem inline olarak yan yana gelmiş olacaklar hem de block gibi işlem yapacağız-->
+
+<!-- Aynı şekilde geri kalan a span gibi komutlar inlinedırlar ve yanyana olurlar
+bunu alt alta getirmek içinde style içinde DİSPLAY komutuna gidip BLOCK dememiz lazm-->
+</head>
+<body>
+    <div id="kutu1">KUTU 1</div>
+    <div id="kutu2">KUTU 2</div> <br>
+
+    <a href="">Link 1</a> 
+    <a href="">Link 2</a>
+    <a href="">Link 3</a> 
+<br>
+    <span>Lorem ipsum dolor sit amet consectetur.</span>
+    <!-- yukarıdaki gibi hepsini bir anda değilde sadece özel birini block yapmak
+    istersek gidip içine DİSPLAY diyip BLOCK seçmemiz lazm-->
+    <span style="display: ;block">Lorem ipsum dolor sit amet consectetur.</span>
+    <span>Lorem ipsum dolor sit amet consectetur.</span>
+
+</body>
+</html>

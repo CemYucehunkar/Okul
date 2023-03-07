@@ -1,0 +1,31 @@
+
+/*
+(p)-> Tüm p etiketlerini etkiler
+
+
+p{
+    color: red;
+    
+}   
+
+
+(div p) --> Div içindeki tüm p etiketlerini etkiler
+div p{
+    color: red;
+--> bu şekilde iç içe olanları aralarında boşluk bırakarak kapsayabiliriz. 
+
+(div,p) --> Tüm Div ve P etiketlerini etkiler
+div,p {
+    color:red; 
+}
+
+(p+div)--> P etiketinde sonra gelen Div etiketini etkiler
+p + div { 
+    color:red; 
+}
+
+
+şeklinde gruplar halinde oluşturup link vererek dosyadaki yapıları 
+değiştirebiliriz.
+
+*/

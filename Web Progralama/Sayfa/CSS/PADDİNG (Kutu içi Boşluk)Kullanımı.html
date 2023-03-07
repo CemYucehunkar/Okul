@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding Kullanımı</title>
+    <style>
+        .kutu {
+            width: 450px;
+            height: 150px;
+            margin: 5px;
+
+        }
+
+        #kutu1 {
+            background-color: pink;
+        }
+
+        #kutu2 {
+            background-color: burlywood;
+        }
+
+        #kutu3 {
+            background-color: aqua;
+        }
+
+        span {
+            background-color: blueviolet;
+            display: inline-block;
+            width: 200px;
+            padding: 50px;
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--    Margin ögelerin dört tarafında verilmek istenilen boşlukları ifade ediyor-->
+    <!--    Margin kullanımı saat yönünde gider. Tek bir satırda farklı farklı boşluklar 
+    bırakabiliriz Önce üst sonra sağ sonra alt sonra sol şeklinde gider-->
+    <div class="kutu" id="kutu1">Kutu 1</div>
+    <div class="kutu" id="kutu2">Kutu 2</div>
+    <div class="kutu" id="kutu3">Kutu 3</div>
+
+    <div>
+        <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span><br>
+        <span>Lorem ipsum dolor sit.</span><br>
+        <span>Lorem ipsum dolor sit amet consectetur.</span><br>
+        <span>Lorem, ipsum dolor.</span>
+    </div>
+</body>
+
+</html>

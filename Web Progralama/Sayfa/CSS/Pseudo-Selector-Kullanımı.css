@@ -1,0 +1,57 @@
+/* Pseudo Selectorları 2 ye ayrılıyor ELEMENTLER ve CLASS lar
+
+
+Pseudo Elementleri--- Bir şeyin bir özelliğini değiştirmeye yarar
+
+P:: etiketi şeklinde kullanılıyor
+*/
+
+
+
+p::first-line{ 
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    /* ilk satırı düzenlemek*/
+}
+
+p::first-letter{
+    font-size: 50px;  
+    /*ilk harfleri düzenlemek*/
+}
+
+
+/* Pseudo Classları
+
+Daha kompleks yapıları değiştirmek için daha kapsamlı 
+değişiklik için kullanılır  
+
+Tek : nokta ile kullanılır*/
+
+ul li{ 
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+    background-color: aqua;
+}
+ul li:last-child{ 
+    background-color: pink;
+}
+
+a:visited{ 
+    color: green;
+}
+
+a:hover{
+    color: white;
+    background-color: lightblue;
+}
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin bottom: 10px;
+}

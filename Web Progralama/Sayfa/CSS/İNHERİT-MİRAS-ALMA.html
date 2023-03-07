@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirah Alma-İnherit</title>
+    <style>
+        body {
+            color: green;
+        }
+
+        ul {
+            color: blueviolet;
+        }
+
+        li{
+            color:yellow
+        }
+        a {
+            color: inherit;
+        }
+    </style>
+
+    <!-- Body kısmına renk komutunu verdiğimizde tüm body içindekiler
+bu renge göre değişir ancak bazı "a href" komutu gibi komutlar bu
+özelliğe karşı gelebilirler.
+
+Bunun için a komutunun içine gidip renk,backgraund, vs gibi özelliklerin
+içine color: inherit; yazarsak bu kapsayıcı olan genetik mirası alacaktır-->
+</head>
+
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi beatae excepturi expedita culpa tempora
+        impedit eum accusantium, repellat iure!</p>
+
+    <h1>Lorem, ipsum dolor.</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi beatae excepturi expedita culpa tempora
+        impedit eum accusantium, repellat iure!</p>
+
+    <a href="#">Link1</a>
+    <a href="#">Link2</a>
+
+    <ul>
+        <li  style="color: inherit;">Madde 1</li>
+        <li>Madde 2</li>
+        <li>Madde 3</li>
+        <li>Madde 4</li>
+        <li>Madde 5</li>
+    </ul>
+
+
+</body>
+
+</html>
